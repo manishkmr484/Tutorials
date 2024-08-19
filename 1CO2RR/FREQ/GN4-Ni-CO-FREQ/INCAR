@@ -1,0 +1,47 @@
+NCORE = 8
+NPAR = 8 
+#NPAR = 1 
+SYSTEM = KAIST-INCAR
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+LVTOT = .FALSE.
+#LELF = .TRUE.
+#LORBIT = 11
+ISTART = 1
+SIGMA = 0.05
+ICHARG = 2                            # 2 for MAGMAOM tag
+#IBRION = 2                            #DFT Conjugate Gradient.
+#POTIM = 0.2
+ISIF = 2                              # Ion          
+NSW = 4000 
+NELM = 4000
+NELMIN = 6
+ISYM = 0
+ISPIN = 2
+IDIPOL = 3
+LMAXMIX = 4 
+ADDGRID = .TRUE.
+ALGO = VeryFast
+NELMDL = -20
+ISMEAR = 0
+AMIX = 0.2
+BMIX = 0.00001
+AMIX_MAG = 0.8
+BMIX_MAG = 0.00001
+LREAL = Auto
+PREC = Accurate
+EDIFF = 1E-05
+EDIFFG = -0.02
+ENCUT = 400.0
+GGA = PE
+
+IVDW = 11                     #DFT-D3 method of Grimme
+
+####Magnetization####
+LORBIT = 11                                          #for MAGMAOM tag
+MAGMOM = 67*0.0 4*0.0 1*5.0 1*0.0       #for MAGMAOM tag
+
+### for freq ###
+IBRION = 5     # for freq
+POTIM = 0.02   # for freq
+NFREE = 2      # for freq
