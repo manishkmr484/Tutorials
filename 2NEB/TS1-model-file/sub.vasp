@@ -1,0 +1,9 @@
+#!/bin/sh
+
+VASP_PATH=/HOME/tsinghua_chem_jli_4/bin
+
+export PATH=$VASP_PATH:$PATH
+export LD_LIBRARY_PATH=/HOME/intel/composer_xe_2013_sp1.2.144/mkl/lib/intel64:$LD_LIBRARY_PATH
+
+yhrun -n 96 -N 4  vasp
+
