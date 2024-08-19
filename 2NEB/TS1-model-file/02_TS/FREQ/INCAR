@@ -1,0 +1,41 @@
+NPAR = 1
+SYSTEM = TS1_1-2
+#LWAVE = .FALSE.
+LCHARG = .TRUE.
+LVTOT = .FALSE.
+#LELF = .TRUE.
+#LORBIT = 11
+ISTART = 1
+SIGMA = 0.05
+ICHARG = 1
+#IBRION = 1 
+#POTIM = 0.1
+ISIF = 2
+NSW = 1000 
+NELM = 800
+NELMIN = 6
+ISYM = 0
+ISPIN = 2
+IDIPOL = 3
+ADDGRID = .TRUE.
+ALGO = VeryFast
+NELMDL = -20
+ISMEAR = 0
+AMIX = 0.2
+BMIX = 0.00001
+AMIX_MAG = 0.8
+BMIX_MAG = 0.00001
+LREAL = Auto
+PREC = Accurate
+EDIFF = 1E-06
+EDIFFG = -0.03
+ENCUT = 500.0
+GGA = PE
+
+
+### for freq ###
+IBRION = 5     # for freq
+POTIM = 0.02   # for freq
+NFREE = 2      # for freq
+
+
