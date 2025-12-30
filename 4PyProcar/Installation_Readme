@@ -1,0 +1,4 @@
+Steps for PYPROCAR5 installation
+1) First create a new conda environment: conda create -n pyprocar5 python=3.11
+2) Install from conda: conda install conda-forge::pyprocar==5.6.6
+3) Degrade matplotlib: conda install matplotlib=3.7
